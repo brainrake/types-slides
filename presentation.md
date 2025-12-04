@@ -40,14 +40,14 @@ Outline:
 
 ## Static vs Dynamic
 
-- type errors at compile time or runtime
+Type errors at compile time or runtime
 
 
 ---
 
 ## Strong vs Weak Type System
 
-It's difficult to tell. Does the language automatically coerce values between types?
+Strong type systems never automatically convert values between types, as that may lead to unexpected incorrect results.
 
 
 --- 
@@ -69,14 +69,6 @@ class int:
         else:
             raise Exception("type error")
 ```
-
----
-
-## Strong Type System TODO XXXXXXX
-
-If a program typechecks, it can never crash.
-
-### It typechecks, ship it!
 
 ---
 
