@@ -1,0 +1,13 @@
+{
+  "name": "prezi",
+  "version": "1.0.0",
+  "description": "Formalis Nyelvek - Típusok",
+  "scripts": {
+    "build": "marp presentation.md"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@marp-team/marp-cli": "^4.2.3"
+  }
+}
