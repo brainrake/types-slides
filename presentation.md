@@ -522,11 +522,3 @@ table {
     table-layout: fixed;
 }
 </style>
-
-<script>
-import * as Viz from "@viz-js/viz";
-
-Viz.instance().then(viz => {
-  document.body.appendChild(viz.renderSVGElement("digraph { a -> b }"))
-});
-</script>
